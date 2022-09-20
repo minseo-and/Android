@@ -6,7 +6,9 @@
         <entry key="app/src/main/res/layout/activity_checked_button.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_image_button.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_progress_bar.xml" value="0.15520833333333334" />
         <entry key="app/src/main/res/layout/activity_radio.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_seek_bar.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_text.xml" value="0.19610507246376813" />
       </map>
     </option>
