@@ -12,10 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Widgets"
-        tools:targetApi="31"
-        tools:ignore="ExtraText">
+        tools:ignore="ExtraText"
+        tools:targetApi="31">
         <activity
-            android:name=".SeekBarActivity"
+            android:name=".RatingBarActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,10 +24,11 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SeekBarActivity"
+            android:exported="true"/>
+        <activity
             android:name=".ProgressBarActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".CheckBoxActivity"
             android:exported="true" />
