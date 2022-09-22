@@ -1,8 +1,12 @@
 package com.example.activity
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.activity.result.ActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import com.example.activity.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -11,9 +15,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        val activityResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
+            if (it.resultCode == Activity.RESULT_OK) {
+                val message = it.data?.getStringExtra("returnValue")
+                Toast.makeText(this, message, Toast.LENGTH_LONG).show()
+            }
+        }
+
         val intent = Intent(this, SubActivity::class.java)
         intent.putExtra("from1", "Hello Bundle")
         intent.putExtra("from2", 2021)
-        binding.btnStart.setOnClickListener { startActivity(intent) }
+        binding.btnStart.setOnClickListener { activityResult.launch(intent)}
     }
 }
