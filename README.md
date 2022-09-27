@@ -6,4 +6,6 @@
 
 ## 코틀린 문법
 
-Varriable - https://github.com/minseo-and/Android/blob/master/Kotlin/Grammer/src/main/kotlin/variable/Variable.md
+변수 - https://github.com/minseo-and/Android/blob/master/Kotlin/Grammer/src/main/kotlin/variable/Variable.md
+
+조건문 - https://github.com/minseo-and/Android/blob/master/Kotlin/Grammer/src/main/kotlin/conditional_statement/Conditional_Statement.md
