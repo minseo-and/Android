@@ -95,3 +95,20 @@ if (strike > 2) {
 ```
 
 if 문의 조건식에서 strike가 2보다 크므로 out에 1을 더해줍니다. Log를 사용해서 변수 out을 출력하면 ‘1’이 출력됩니다.
+
+### **if ~ else 문 사용하기**
+
+이번에는 if와 else를 같이 사용한 예입니다. 조건식의 결과가 참이면 if 다음에 있는 코드 블록({})의 코드가 실행되고, 거짓이면 else 다음에 있는 코드 블록({})의 코드가 실행됩니다.
+
+> if (조건식) { 조건식이 참일 경우 실행되는 코드 영역 } else (조건식) { 조건식이 거짓일 경우 실행되는 코드 영역 }
+
+```kotlin
+fun main() {
+    val ball = 4
+    if (ball > 3){
+        print("go on base with 4 balls")
+    } else {
+        print("wait")
+    }
+}
+```
