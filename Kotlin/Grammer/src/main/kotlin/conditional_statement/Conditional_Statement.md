@@ -148,6 +148,4 @@ fun main() {
 
     println("2019 The Highest ERA in MLB is $era")
 }
-=======
->>>>>>> master
 ```
