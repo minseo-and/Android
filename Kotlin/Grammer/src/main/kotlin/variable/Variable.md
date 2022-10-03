@@ -233,3 +233,5 @@ class MainACtivity {
 	}
 }
 ```
+
+코드 모음 - https://github.com/minseo-and/Android/tree/master/Kotlin/Grammer/src/main/kotlin/variable
